@@ -1,6 +1,6 @@
 import React from 'react';
-import { Table,Alert, Row, Col, Dropdown, DropdownButton } from 'react-bootstrap';
-import { NavLink, withRouter } from 'react-router-dom';
+import { Table, Row, Col, Dropdown, DropdownButton } from 'react-bootstrap';
+import {  withRouter } from 'react-router-dom';
 
 class Mapper extends React.Component {
     constructor(props) {
@@ -19,7 +19,7 @@ class Mapper extends React.Component {
             });
             this.setState({ filteredArray: [...arr] })
         }
-        else alert('enter value')
+        else alert('enter the value!!')
     //     else { return (<Alert key={'1'} variant={'danger'}>
     //          Please enter Value
     //   </Alert>)}
