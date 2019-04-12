@@ -74,11 +74,12 @@ class Mapper extends React.Component {
                     </form>
 
                 </div>
-
+                <br/>
+                <p>Click any table-header coloumn to sort accordingly !!</p>
                 <Table style={{ marginTop: 20 }} striped bordered hover variant="dark" responsive >
                     <thead>
                         <tr>
-                            <th onClick={() => this.sortHandler('first_name')}>First Name</th>
+                            <th onClick={() => this.sortHandler('first_name')}>First__Name</th>
                             <th onClick={() => this.sortHandler('last_name')}>Last Name</th>
                             <th onClick={() => this.sortHandler('company_name')}>Company Name</th>
                             <th onClick={() => this.sortHandler('city')}>City</th>
